@@ -1,0 +1,55 @@
+# Ignore node_modules and build/dist folders in frontend and backend
+
+# Frontend (React + Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend (Node.js or other backend)
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Logs
+*.log
+frontend/*.log
+backend/*.log
+logs/
+logs/**
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: if you have coverage reports
+frontend/coverage/
+backend/coverage/
+
+# Optional: if you use npm-debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: macOS files
+*.DS_Store
+
+# Optional: temporary files
+*.tmp
+*.temp
+
+# Optional: lock files (if you want to ignore, but usually better to commit)
+# frontend/package-lock.json
+# backend/package-lock.json
